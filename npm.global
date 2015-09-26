@@ -1,0 +1,9 @@
+├── eslint@1.5.1                                                                                                                                                                                    │crontab                 init             ltrace.conf      profile.d                shadow-       X11
+├── eslint-plugin-jade@0.1.2 -> /home/alivesay/working/eslint-plugin-jade                                                                                                                           │cron.weekly             init.d           lvm              protocols                shells        xml
+├── jade-lint@1.2.10                                                                                                                                                                                │dbus-1                  initramfs-tools  magic            python                   skel          zsh_command_not_found
+├── mentat@2.0.16 -> /home/alivesay/working/mentat                                                                                                                                                  │debconf.conf            inputrc          magic.mime       python2.7                ssh
+└── npm@2.14.3     
+eslint
+eslint-plugin-jade
+jade-lint
+
