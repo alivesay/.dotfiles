@@ -34,3 +34,4 @@ set t_Co=256
 if &term =~ '^screen'
     set ttymouse=xterm2
 endif
+let vala_comment_strings = 1
