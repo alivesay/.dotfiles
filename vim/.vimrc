@@ -22,7 +22,6 @@ nnoremap <leader><space> :nohlsearch<CR>
 map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '►'
 let g:NERDTreeDirArrowCollapsible = '▼'
-let NERDTreeIgnore = ['\.la$', '\.lo$', '\.o']
 set mouse=a
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
