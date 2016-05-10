@@ -2,6 +2,9 @@ execute pathogen#infect()
 colorscheme badwolf
 syntax enable
 filetype plugin indent on
+set enc=utf8
+set fillchars=vert:\│
+set colorcolumn=80
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
@@ -19,6 +22,7 @@ nnoremap <leader><space> :nohlsearch<CR>
 map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '►'
 let g:NERDTreeDirArrowCollapsible = '▼'
+let NERDTreeIgnore = ['\.la$', '\.lo$', '\.o']
 set mouse=a
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -34,4 +38,5 @@ set t_Co=256
 if &term =~ '^screen'
     set ttymouse=xterm2
 endif
-let vala_comment_strings = 1
+set exrc
+set secure
